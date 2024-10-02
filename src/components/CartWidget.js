@@ -5,10 +5,7 @@ const CartWidget = () => {
   const cartItemCount = 3;
 
   return (
-    <div
-      className="cart-widget"
-      style={{ display: 'flex', alignItems: 'center' }}
-    >
+    <div className="cart-widget" style={{ display: 'flex', alignItems: 'center' }}>
       <FaShoppingCart size={24} />
       <span
         className="cart-count"
